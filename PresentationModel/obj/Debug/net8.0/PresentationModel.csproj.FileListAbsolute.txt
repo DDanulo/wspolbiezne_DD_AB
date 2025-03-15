@@ -1,0 +1,14 @@
+C:\Users\ddv03\source\repos\Data\PresentationModel\bin\Debug\net8.0\PresentationModel.exe
+C:\Users\ddv03\source\repos\Data\PresentationModel\bin\Debug\net8.0\PresentationModel.deps.json
+C:\Users\ddv03\source\repos\Data\PresentationModel\bin\Debug\net8.0\PresentationModel.runtimeconfig.json
+C:\Users\ddv03\source\repos\Data\PresentationModel\bin\Debug\net8.0\PresentationModel.dll
+C:\Users\ddv03\source\repos\Data\PresentationModel\bin\Debug\net8.0\PresentationModel.pdb
+C:\Users\ddv03\source\repos\Data\PresentationModel\obj\Debug\net8.0\PresentationModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ddv03\source\repos\Data\PresentationModel\obj\Debug\net8.0\PresentationModel.AssemblyInfoInputs.cache
+C:\Users\ddv03\source\repos\Data\PresentationModel\obj\Debug\net8.0\PresentationModel.AssemblyInfo.cs
+C:\Users\ddv03\source\repos\Data\PresentationModel\obj\Debug\net8.0\PresentationModel.csproj.CoreCompileInputs.cache
+C:\Users\ddv03\source\repos\Data\PresentationModel\obj\Debug\net8.0\PresentationModel.dll
+C:\Users\ddv03\source\repos\Data\PresentationModel\obj\Debug\net8.0\refint\PresentationModel.dll
+C:\Users\ddv03\source\repos\Data\PresentationModel\obj\Debug\net8.0\PresentationModel.pdb
+C:\Users\ddv03\source\repos\Data\PresentationModel\obj\Debug\net8.0\PresentationModel.genruntimeconfig.cache
+C:\Users\ddv03\source\repos\Data\PresentationModel\obj\Debug\net8.0\ref\PresentationModel.dll
