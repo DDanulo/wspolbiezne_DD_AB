@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ddv03\\source\\repos\\conc\\TP\\ConcurrentProgramming\\Synchronization\\Synchronization.csproj",
+      "projectUniqueName": "C:\\Users\\ddv03\\source\\repos\\Data\\ConcurrentProgramming\\Synchronization\\Synchronization.csproj",
       "projectName": "TP.ConcurrentProgramming.Synchronization",
-      "projectPath": "C:\\Users\\ddv03\\source\\repos\\conc\\TP\\ConcurrentProgramming\\Synchronization\\Synchronization.csproj",
+      "projectPath": "C:\\Users\\ddv03\\source\\repos\\Data\\ConcurrentProgramming\\Synchronization\\Synchronization.csproj",
       "packagesPath": "C:\\Users\\ddv03\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ddv03\\source\\repos\\conc\\TP\\ConcurrentProgramming\\Synchronization\\obj\\",
+      "outputPath": "C:\\Users\\ddv03\\source\\repos\\Data\\ConcurrentProgramming\\Synchronization\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

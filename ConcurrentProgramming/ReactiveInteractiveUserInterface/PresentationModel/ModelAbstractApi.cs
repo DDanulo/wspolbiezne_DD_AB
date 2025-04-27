@@ -9,6 +9,7 @@
 
 using System;
 using System.ComponentModel;
+using TP.ConcurrentProgramming.Data;
 
 namespace TP.ConcurrentProgramming.Presentation.Model
 {
@@ -21,9 +22,9 @@ namespace TP.ConcurrentProgramming.Presentation.Model
 
   public abstract class ModelAbstractApi : IObservable<IBall>, IDisposable
   {
-    public static ModelAbstractApi CreateModel()
+    public static ModelAbstractApi CreateModel(Dimensions dims)
     {
-      return modelInstance.Value;
+      return new ModelImplementation(dims);
     }
 
     public abstract void Start(int numberOfBalls);
@@ -39,11 +40,5 @@ namespace TP.ConcurrentProgramming.Presentation.Model
     public abstract void Dispose();
 
     #endregion IDisposable
-
-    #region private
-
-    private static Lazy<ModelAbstractApi> modelInstance = new Lazy<ModelAbstractApi>(() => new ModelImplementation());
-
-    #endregion private
   }
 }

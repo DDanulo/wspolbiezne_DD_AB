@@ -18,7 +18,7 @@ namespace TP.ConcurrentProgramming.BusinessLogic.Test
     [TestMethod]
     public void ConstructorTestMethod()
     {
-      using (BusinessLogicImplementation newInstance = new(new DataLayerConstructorFixcure()))
+      using (BusinessLogicImplementation newInstance = new(new Dimensions(10, 10, 10), new DataLayerConstructorFixcure()))
       {
         bool newInstanceDisposed = true;
         newInstance.CheckObjectDisposed(x => newInstanceDisposed = x);
@@ -30,7 +30,7 @@ namespace TP.ConcurrentProgramming.BusinessLogic.Test
     public void DisposeTestMethod()
     {
       DataLayerDisposeFixcure dataLayerFixcure = new DataLayerDisposeFixcure();
-      BusinessLogicImplementation newInstance = new(dataLayerFixcure);
+      BusinessLogicImplementation newInstance = new(new Dimensions(10,10,10),dataLayerFixcure);
       Assert.IsFalse(dataLayerFixcure.Disposed);
       bool newInstanceDisposed = true;
       newInstance.CheckObjectDisposed(x => newInstanceDisposed = x);
@@ -47,7 +47,7 @@ namespace TP.ConcurrentProgramming.BusinessLogic.Test
     public void StartTestMethod()
     {
       DataLayerStartFixcure dataLayerFixcure = new();
-      using (BusinessLogicImplementation newInstance = new(dataLayerFixcure))
+      using (BusinessLogicImplementation newInstance = new(new Dimensions(10, 10, 10), dataLayerFixcure))
       {
         int called = 0;
         int numberOfBalls2Create = 10;

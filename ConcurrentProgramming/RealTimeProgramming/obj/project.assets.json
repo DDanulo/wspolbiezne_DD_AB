@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ddv03\\source\\repos\\conc\\TP\\ConcurrentProgramming\\RealTimeProgramming\\RealTimeProgramming.csproj",
+      "projectUniqueName": "C:\\Users\\ddv03\\source\\repos\\Data\\ConcurrentProgramming\\RealTimeProgramming\\RealTimeProgramming.csproj",
       "projectName": "TP.ConcurrentProgramming.RealTimeProgramming",
-      "projectPath": "C:\\Users\\ddv03\\source\\repos\\conc\\TP\\ConcurrentProgramming\\RealTimeProgramming\\RealTimeProgramming.csproj",
+      "projectPath": "C:\\Users\\ddv03\\source\\repos\\Data\\ConcurrentProgramming\\RealTimeProgramming\\RealTimeProgramming.csproj",
       "packagesPath": "C:\\Users\\ddv03\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ddv03\\source\\repos\\conc\\TP\\ConcurrentProgramming\\RealTimeProgramming\\obj\\",
+      "outputPath": "C:\\Users\\ddv03\\source\\repos\\Data\\ConcurrentProgramming\\RealTimeProgramming\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

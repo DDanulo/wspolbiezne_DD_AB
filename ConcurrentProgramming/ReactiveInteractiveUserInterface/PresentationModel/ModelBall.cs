@@ -21,8 +21,8 @@ namespace TP.ConcurrentProgramming.Presentation.Model
   {
     public ModelBall(double top, double left, LogicIBall underneathBall)
     {
-      TopBackingField = top;
-      LeftBackingField = left;
+      TopBackingField = top - Diameter/2;
+      LeftBackingField = left - Diameter / 2;
       underneathBall.NewPositionNotification += NewPositionNotification;
     }
 
@@ -69,7 +69,7 @@ namespace TP.ConcurrentProgramming.Presentation.Model
 
     private void NewPositionNotification(object sender, IPosition e)
     {
-      Top = e.y; Left = e.x;
+      Top = e.y - Diameter / 2; Left = e.x - Diameter / 2;
     }
 
     private void RaisePropertyChanged([CallerMemberName] string propertyName = "")

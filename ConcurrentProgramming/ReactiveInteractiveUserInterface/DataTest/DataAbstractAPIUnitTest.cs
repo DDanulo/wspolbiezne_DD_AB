@@ -16,11 +16,9 @@ namespace TP.ConcurrentProgramming.Data.Test
     [TestMethod]
     public void ConstructorTestTestMethod()
     {
-      DataAbstractAPI instance1 = DataAbstractAPI.GetDataLayer();
-      DataAbstractAPI instance2 = DataAbstractAPI.GetDataLayer();
-      Assert.AreSame<DataAbstractAPI>(instance1, instance2);
-      instance1.Dispose();
-      Assert.ThrowsException<ObjectDisposedException>(() => instance2.Dispose());
+      DataAbstractAPI instance1 = DataAbstractAPI.Create(new Dimensions(1,2,3));
+      DataAbstractAPI instance2 = DataAbstractAPI.Create(new Dimensions(1, 2, 3));
+      Assert.AreNotSame<DataAbstractAPI>(instance1, instance2);
     }
   }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP.ConcurrentProgramming.RealTimeProgramming")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64cbe615889b068e94d9c5e6da2132244b5bfe21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0218f9c00176fb1dd1b6bca4dc8972ac80926377")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP.ConcurrentProgramming.RealTimeProgramming")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP.ConcurrentProgramming.RealTimeProgramming")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,7 +16,7 @@ namespace TP.ConcurrentProgramming.Data.Test
     [TestMethod]
     public void ConstructorTestMethod()
     {
-      using (DataImplementation newInstance = new DataImplementation())
+      using (DataImplementation newInstance = new DataImplementation(new Dimensions(1, 2, 3)))
       {
         IEnumerable<IBall>? ballsList = null;
         newInstance.CheckBallsList(x => ballsList = x);
@@ -30,7 +30,7 @@ namespace TP.ConcurrentProgramming.Data.Test
     [TestMethod]
     public void DisposeTestMethod()
     {
-      DataImplementation newInstance = new DataImplementation();
+      DataImplementation newInstance = new DataImplementation(new Dimensions(1, 2, 3));
       bool newInstanceDisposed = false;
       newInstance.CheckObjectDisposed(x => newInstanceDisposed = x);
       Assert.IsFalse(newInstanceDisposed);
@@ -48,7 +48,7 @@ namespace TP.ConcurrentProgramming.Data.Test
     [TestMethod]
     public void StartTestMethod()
     {
-      using (DataImplementation newInstance = new DataImplementation())
+      using (DataImplementation newInstance = new DataImplementation(new Dimensions(1, 2, 3)))
       {
         int numberOfCallbackInvoked = 0;
         int numberOfBalls2Create = 10;
