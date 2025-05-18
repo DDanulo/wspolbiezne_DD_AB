@@ -1817,11 +1817,11 @@
   "project": {
     "version": "4.2.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ddv03\\source\\repos\\Data\\ReactiveInteractiveUserInterface\\PresentationViewModelTest\\PresentationViewModelTest.csproj",
+      "projectUniqueName": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\PresentationViewModelTest\\PresentationViewModelTest.csproj",
       "projectName": "PresentationViewModelTest",
-      "projectPath": "C:\\Users\\ddv03\\source\\repos\\Data\\ReactiveInteractiveUserInterface\\PresentationViewModelTest\\PresentationViewModelTest.csproj",
+      "projectPath": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\PresentationViewModelTest\\PresentationViewModelTest.csproj",
       "packagesPath": "C:\\Users\\ddv03\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ddv03\\source\\repos\\Data\\ReactiveInteractiveUserInterface\\PresentationViewModelTest\\obj\\",
+      "outputPath": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\PresentationViewModelTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1842,8 +1842,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ddv03\\source\\repos\\Data\\ReactiveInteractiveUserInterface\\PresentationViewModel\\PresentationViewModel.csproj": {
-              "projectPath": "C:\\Users\\ddv03\\source\\repos\\Data\\ReactiveInteractiveUserInterface\\PresentationViewModel\\PresentationViewModel.csproj"
+            "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\PresentationViewModel\\PresentationViewModel.csproj": {
+              "projectPath": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\PresentationViewModel\\PresentationViewModel.csproj"
             }
           }
         }

@@ -9,7 +9,6 @@
 //_____________________________________________________________________________________________________________________________________
 
 using TP.ConcurrentProgramming.Data;
-//test
 namespace TP.ConcurrentProgramming.BusinessLogic
 {
     public abstract class BusinessLogicAbstractAPI : IDisposable

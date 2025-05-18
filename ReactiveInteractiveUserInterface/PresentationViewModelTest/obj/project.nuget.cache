@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d4bMYmYgZR8=",
+  "dgSpecHash": "4/PJBSPMgG8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ddv03\\source\\repos\\Data\\ReactiveInteractiveUserInterface\\PresentationViewModelTest\\PresentationViewModelTest.csproj",
+  "projectFilePath": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\PresentationViewModelTest\\PresentationViewModelTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ddv03\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\ddv03\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",

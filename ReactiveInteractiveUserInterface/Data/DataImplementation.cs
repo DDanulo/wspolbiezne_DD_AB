@@ -20,7 +20,7 @@ namespace TP.ConcurrentProgramming.Data
         public DataImplementation(Dimensions dims)
         {
             _dims = dims;
-            MoveTimer = new Timer(Move, null, TimeSpan.Zero, TimeSpan.FromMilliseconds(100));
+            //MoveTimer = new Timer(Move, null, TimeSpan.Zero, TimeSpan.FromMilliseconds(50));
         }
 
         #endregion ctor
@@ -37,7 +37,7 @@ namespace TP.ConcurrentProgramming.Data
             for (int i = 0; i < numberOfBalls; i++)
             {
                 Vector startingPosition = new(random.Next(100, 400 - 100), random.Next(100, 400 - 100));
-                Ball newBall = new(startingPosition, startingPosition);
+                Ball newBall = new(startingPosition, new(random.NextDouble() * 200 - 100, random.NextDouble() * 200 - 100));
                 upperLayerHandler(startingPosition, newBall);
                 BallsList.Add(newBall);
             }
@@ -53,7 +53,9 @@ namespace TP.ConcurrentProgramming.Data
             {
                 if (disposing)
                 {
-                    MoveTimer.Dispose();
+                    //MoveTimer.Dispose();
+                    //BallsList.Clear();
+                    foreach (Ball b in BallsList) b.Dispose();
                     BallsList.Clear();
                 }
                 Disposed = true;
@@ -73,22 +75,24 @@ namespace TP.ConcurrentProgramming.Data
 
         #region private
 
-        //private bool disposedValue;
         private bool Disposed = false;
         Dimensions _dims;
-        private readonly Timer MoveTimer;
+        //private Timer MoveTimer;
         private Random RandomGenerator = new();
         private List<Ball> BallsList = [];
 
-        private void Move(object? x)
-        {
-            foreach (Ball item in BallsList)
-            {
-                double deltaX = (RandomGenerator.NextDouble() - 0.5) * 100;
-                double deltaY = (RandomGenerator.NextDouble() - 0.5) * 100;
-                item.Move(new Vector(deltaX, deltaY), _dims);
-            }
-        }
+        //private void Move(object? x)
+        //{
+        //    const double dt = 0.1;
+        //    lock (BallsList)
+        //    {
+        //        foreach (Ball b in BallsList)
+        //        {
+        //            var v = b.Velocity;
+        //            b.Move(new Vector(v.x * dt, v.y * dt));
+        //        }
+        //    }
+        //}
 
         #endregion private
 

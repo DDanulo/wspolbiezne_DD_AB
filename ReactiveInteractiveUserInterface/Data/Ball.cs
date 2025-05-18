@@ -8,16 +8,21 @@
 //
 //_____________________________________________________________________________________________________________________________________
 
+using System.Diagnostics;
+
 namespace TP.ConcurrentProgramming.Data
 {
-    internal class Ball : IBall
+    public class Ball : IBall
     {
         #region ctor
 
-        internal Ball(Vector initialPosition, Vector initialVelocity)
+        internal Ball(Vector initialPosition, Vector initialVelocity, int tickMs = 10)
         {
             Position = initialPosition;
             Velocity = initialVelocity;
+            _tickMs = Math.Max(1, tickMs);
+            _thread = new Thread(Run) { IsBackground = true, Name = $"Ball-{Guid.NewGuid()}" };
+            _thread.Start();
         }
 
         #endregion ctor
@@ -28,30 +33,39 @@ namespace TP.ConcurrentProgramming.Data
 
         public IVector Velocity { get; set; }
 
-        public Vector Position { private set; get; }
+        public IVector Position { set; get; }
         #endregion IBall
 
         #region private
-
+        private readonly Thread _thread;
+        private volatile bool _alive = true;   // thread-life flag
+        private readonly int _tickMs;         // sleep per step (e.g. 10 ms)
 
         private void RaiseNewPositionChangeNotification()
         {
             NewPositionNotification?.Invoke(this, Position);
         }
-
-        internal void Move(Vector delta, Dimensions dims)
+        private void Run()
         {
-            double r = dims.BallDiameter / 2.0;
-
-            double newX = Position.x + delta.x;
-            double newY = Position.y + delta.y;
-
-            newX = Math.Max(Math.Min(newX, dims.TableWidth - r), r);
-            newY = Math.Max(Math.Min(newY, dims.TableHeight - r), r);
-            Position = new Vector(newX, newY);
+            var sw = Stopwatch.StartNew();
+            while (_alive)
+            {
+                double dt = sw.Elapsed.TotalSeconds;
+                sw.Restart();
+                Move(new Vector(Velocity.x * dt, Velocity.y * dt));
+                Thread.Sleep(_tickMs);
+            }
+        }
+        internal void Move(Vector delta) //, Dimensions dims)
+        {
+            Position = new Vector(Position.x + delta.x, Position.y + delta.y);
             RaiseNewPositionChangeNotification();
         }
-
+        public void Dispose()          // let DataImplementation call this
+        {
+            _alive = false;
+            _thread.Join();
+        }
         #endregion private
     }
 }

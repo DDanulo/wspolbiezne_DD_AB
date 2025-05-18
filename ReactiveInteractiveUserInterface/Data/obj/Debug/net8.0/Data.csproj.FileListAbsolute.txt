@@ -37,3 +37,16 @@ C:\Users\ddv03\source\repos\Data\ReactiveInteractiveUserInterface\Data\obj\Debug
 C:\Users\ddv03\source\repos\Data\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\refint\DataLayer.dll
 C:\Users\ddv03\source\repos\Data\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\DataLayer.pdb
 C:\Users\ddv03\source\repos\Data\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\ref\DataLayer.dll
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\bin\Debug\net8.0\DataLayer.deps.json
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\bin\Debug\net8.0\DataLayer.dll
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\bin\Debug\net8.0\DataLayer.pdb
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\Data.sourcelink.json
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\DataLayer.dll
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\refint\DataLayer.dll
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\DataLayer.pdb
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\Data\obj\Debug\net8.0\ref\DataLayer.dll
