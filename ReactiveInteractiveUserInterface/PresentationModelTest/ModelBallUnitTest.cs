@@ -9,6 +9,7 @@
 //_____________________________________________________________________________________________________________________________________
 
 using TP.ConcurrentProgramming.BusinessLogic;
+using TP.ConcurrentProgramming.Data;
 
 namespace TP.ConcurrentProgramming.Presentation.Model.Test
 {
@@ -44,9 +45,12 @@ namespace TP.ConcurrentProgramming.Presentation.Model.Test
 
     private class BusinessLogicIBallFixture : BusinessLogic.IBall
     {
-      public event EventHandler<IPosition>? NewPositionNotification;
+            public Rgb Colour => throw new NotImplementedException();
 
-      public void Dispose()
+            public event EventHandler<IPosition>? NewPositionNotification;
+            public event EventHandler<Rgb> ColourChangedNotification;
+
+            public void Dispose()
       {
         throw new NotImplementedException();
       }

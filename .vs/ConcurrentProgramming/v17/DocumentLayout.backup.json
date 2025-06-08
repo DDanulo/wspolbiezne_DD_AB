@@ -3,51 +3,24 @@
   "WorkspaceRootPath": "O:\\test\\wspolbiezne_DD_AB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE3CC0CD-F262-4122-B7C7-F37EEB8F3C48}|ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogic.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\businesslogic\\diagnosticslogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE3CC0CD-F262-4122-B7C7-F37EEB8F3C48}|ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:reactiveinteractiveuserinterface\\businesslogic\\diagnosticslogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51FE83FF-A0DF-4622-BBAF-78EA62BD2907}|ReactiveInteractiveUserInterface\\PresentationModelTest\\PresentationModelTest.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\presentationmodeltest\\modelballunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51FE83FF-A0DF-4622-BBAF-78EA62BD2907}|ReactiveInteractiveUserInterface\\PresentationModelTest\\PresentationModelTest.csproj|solutionrelative:reactiveinteractiveuserinterface\\presentationmodeltest\\modelballunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE3CC0CD-F262-4122-B7C7-F37EEB8F3C48}|ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogic.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\businesslogic\\businesslogicimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE3CC0CD-F262-4122-B7C7-F37EEB8F3C48}|ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:reactiveinteractiveuserinterface\\businesslogic\\businesslogicimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8760446B-8BD6-4254-9977-475EAEE45B0B}|ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicTest.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\businesslogictest\\businesslogicunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8760446B-8BD6-4254-9977-475EAEE45B0B}|ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicTest.csproj|solutionrelative:reactiveinteractiveuserinterface\\businesslogictest\\businesslogicunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE3CC0CD-F262-4122-B7C7-F37EEB8F3C48}|ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogic.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\businesslogic\\businesslogicabstractapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE3CC0CD-F262-4122-B7C7-F37EEB8F3C48}|ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:reactiveinteractiveuserinterface\\businesslogic\\businesslogicabstractapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8760446B-8BD6-4254-9977-475EAEE45B0B}|ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicTest.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\businesslogictest\\businessballunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8760446B-8BD6-4254-9977-475EAEE45B0B}|ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicTest.csproj|solutionrelative:reactiveinteractiveuserinterface\\businesslogictest\\businessballunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE3CC0CD-F262-4122-B7C7-F37EEB8F3C48}|ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogic.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\businesslogic\\businessball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE3CC0CD-F262-4122-B7C7-F37EEB8F3C48}|ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:reactiveinteractiveuserinterface\\businesslogic\\businessball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AA27DB8-F9C6-4587-8290-0FC0FEC69AC2}|ReactiveInteractiveUserInterface\\Data\\Data.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\data\\dataimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA27DB8-F9C6-4587-8290-0FC0FEC69AC2}|ReactiveInteractiveUserInterface\\Data\\Data.csproj|solutionrelative:reactiveinteractiveuserinterface\\data\\dataimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0109D5AC-DA81-4E6E-AA70-D4AF4B7A10D1}|ReactiveInteractiveUserInterface\\GraphicalUserInterface\\PresentationView.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\graphicaluserinterface\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0109D5AC-DA81-4E6E-AA70-D4AF4B7A10D1}|ReactiveInteractiveUserInterface\\GraphicalUserInterface\\PresentationView.csproj|solutionrelative:reactiveinteractiveuserinterface\\graphicaluserinterface\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B39E905-6C7C-4F2B-BD7A-77B7E3893F59}|ReactiveInteractiveUserInterface\\PresentationModel\\PresentationModel.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\presentationmodel\\modelball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B39E905-6C7C-4F2B-BD7A-77B7E3893F59}|ReactiveInteractiveUserInterface\\PresentationModel\\PresentationModel.csproj|solutionrelative:reactiveinteractiveuserinterface\\presentationmodel\\modelball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA27DB8-F9C6-4587-8290-0FC0FEC69AC2}|ReactiveInteractiveUserInterface\\Data\\Data.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\data\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA27DB8-F9C6-4587-8290-0FC0FEC69AC2}|ReactiveInteractiveUserInterface\\Data\\Data.csproj|solutionrelative:reactiveinteractiveuserinterface\\data\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0109D5AC-DA81-4E6E-AA70-D4AF4B7A10D1}|ReactiveInteractiveUserInterface\\GraphicalUserInterface\\PresentationView.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\graphicaluserinterface\\rgbtobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0109D5AC-DA81-4E6E-AA70-D4AF4B7A10D1}|ReactiveInteractiveUserInterface\\GraphicalUserInterface\\PresentationView.csproj|solutionrelative:reactiveinteractiveuserinterface\\graphicaluserinterface\\rgbtobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0109D5AC-DA81-4E6E-AA70-D4AF4B7A10D1}|ReactiveInteractiveUserInterface\\GraphicalUserInterface\\PresentationView.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\graphicaluserinterface\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0109D5AC-DA81-4E6E-AA70-D4AF4B7A10D1}|ReactiveInteractiveUserInterface\\GraphicalUserInterface\\PresentationView.csproj|solutionrelative:reactiveinteractiveuserinterface\\graphicaluserinterface\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0109D5AC-DA81-4E6E-AA70-D4AF4B7A10D1}|ReactiveInteractiveUserInterface\\GraphicalUserInterface\\PresentationView.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\graphicaluserinterface\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0109D5AC-DA81-4E6E-AA70-D4AF4B7A10D1}|ReactiveInteractiveUserInterface\\GraphicalUserInterface\\PresentationView.csproj|solutionrelative:reactiveinteractiveuserinterface\\graphicaluserinterface\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8760446B-8BD6-4254-9977-475EAEE45B0B}|ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicTest.csproj|o:\\test\\wspolbiezne_dd_ab\\reactiveinteractiveuserinterface\\businesslogictest\\businesslogictest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8760446B-8BD6-4254-9977-475EAEE45B0B}|ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicTest.csproj|solutionrelative:reactiveinteractiveuserinterface\\businesslogictest\\businesslogictest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,63 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataImplementation.cs",
-              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\Data\\DataImplementation.cs",
-              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\Data\\DataImplementation.cs",
-              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\Data\\DataImplementation.cs",
-              "RelativeToolTip": "ReactiveInteractiveUserInterface\\Data\\DataImplementation.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAFMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:28:35.561Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DiagnosticsLogger.cs",
-              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogic\\DiagnosticsLogger.cs",
-              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\BusinessLogic\\DiagnosticsLogger.cs",
-              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogic\\DiagnosticsLogger.cs*",
-              "RelativeToolTip": "ReactiveInteractiveUserInterface\\BusinessLogic\\DiagnosticsLogger.cs*",
-              "ViewState": "AgIAACcAAAAAAAAAAAA1wDQAAAAbAAAAAAAAAA==",
+              "Title": "ModelBallUnitTest.cs",
+              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\PresentationModelTest\\ModelBallUnitTest.cs",
+              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\PresentationModelTest\\ModelBallUnitTest.cs",
+              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\PresentationModelTest\\ModelBallUnitTest.cs",
+              "RelativeToolTip": "ReactiveInteractiveUserInterface\\PresentationModelTest\\ModelBallUnitTest.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowC8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:02:19.993Z",
+              "WhenOpened": "2025-06-08T14:38:25.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BusinessLogicImplementation.cs",
-              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogicImplementation.cs",
-              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogicImplementation.cs",
-              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogicImplementation.cs",
-              "RelativeToolTip": "ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogicImplementation.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAQwKoAAACbAAAAAAAAAA==",
+              "Title": "BusinessLogicUnitTest.cs",
+              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicUnitTest.cs",
+              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicUnitTest.cs",
+              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicUnitTest.cs",
+              "RelativeToolTip": "ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicUnitTest.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAD4v0QAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:02:26.568Z",
+              "WhenOpened": "2025-06-08T14:36:24.035Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BusinessLogicAbstractAPI.cs",
-              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogicAbstractAPI.cs",
-              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogicAbstractAPI.cs",
-              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogicAbstractAPI.cs",
-              "RelativeToolTip": "ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessLogicAbstractAPI.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAvwDgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:19:20.922Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
@@ -123,96 +70,35 @@
               "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessBall.cs",
               "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessBall.cs",
               "RelativeToolTip": "ReactiveInteractiveUserInterface\\BusinessLogic\\BusinessBall.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIAzwBUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIAwwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:18:12.272Z",
+              "WhenOpened": "2025-06-08T14:21:41.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALcTAAAAAAAAAAAQwMYTAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-06-08T13:25:38.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\GraphicalUserInterface\\App.xaml",
-              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\GraphicalUserInterface\\App.xaml",
-              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\GraphicalUserInterface\\App.xaml",
-              "RelativeToolTip": "ReactiveInteractiveUserInterface\\GraphicalUserInterface\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T12:06:09.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ModelBall.cs",
-              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\PresentationModel\\ModelBall.cs",
-              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\PresentationModel\\ModelBall.cs",
-              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\PresentationModel\\ModelBall.cs",
-              "RelativeToolTip": "ReactiveInteractiveUserInterface\\PresentationModel\\ModelBall.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADgv14AAABWAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BusinessBallUnitTest.cs",
+              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessBallUnitTest.cs",
+              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessBallUnitTest.cs",
+              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessBallUnitTest.cs",
+              "RelativeToolTip": "ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessBallUnitTest.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:05:18.69Z",
+              "WhenOpened": "2025-06-08T14:20:21.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Ball.cs",
-              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\Data\\Ball.cs",
-              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\Data\\Ball.cs",
-              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\Data\\Ball.cs",
-              "RelativeToolTip": "ReactiveInteractiveUserInterface\\Data\\Ball.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAwEYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:02:17.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RgbToBrushConverter.cs",
-              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\GraphicalUserInterface\\RgbToBrushConverter.cs",
-              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\GraphicalUserInterface\\RgbToBrushConverter.cs",
-              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\GraphicalUserInterface\\RgbToBrushConverter.cs",
-              "RelativeToolTip": "ReactiveInteractiveUserInterface\\GraphicalUserInterface\\RgbToBrushConverter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:10:39.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\GraphicalUserInterface\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\GraphicalUserInterface\\MainWindow.xaml",
-              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\GraphicalUserInterface\\MainWindow.xaml",
-              "RelativeToolTip": "ReactiveInteractiveUserInterface\\GraphicalUserInterface\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T12:08:05.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\GraphicalUserInterface\\App.xaml.cs",
-              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\GraphicalUserInterface\\App.xaml.cs",
-              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\GraphicalUserInterface\\App.xaml.cs",
-              "RelativeToolTip": "ReactiveInteractiveUserInterface\\GraphicalUserInterface\\App.xaml.cs",
+              "DocumentIndex": 4,
+              "Title": "BusinessLogicTest",
+              "DocumentMoniker": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicTest.csproj",
+              "RelativeDocumentMoniker": "ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicTest.csproj",
+              "ToolTip": "O:\\test\\wspolbiezne_DD_AB\\ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicTest.csproj",
+              "RelativeToolTip": "ReactiveInteractiveUserInterface\\BusinessLogicTest\\BusinessLogicTest.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:06:09.777Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-08T14:20:01.105Z",
               "EditorCaption": ""
             }
           ]
