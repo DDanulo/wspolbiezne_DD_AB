@@ -9,6 +9,7 @@
 //_____________________________________________________________________________________________________________________________________
 
 using TP.ConcurrentProgramming.Data;
+using static TP.ConcurrentProgramming.Data.Ball;
 namespace TP.ConcurrentProgramming.BusinessLogic
 {
     public abstract class BusinessLogicAbstractAPI : IDisposable
@@ -54,5 +55,8 @@ namespace TP.ConcurrentProgramming.BusinessLogic
     public interface IBall
     {
         event EventHandler<IPosition> NewPositionNotification;
+        event EventHandler<Rgb> ColourChangedNotification;
+
+        Rgb Colour { get; }
     }
 }

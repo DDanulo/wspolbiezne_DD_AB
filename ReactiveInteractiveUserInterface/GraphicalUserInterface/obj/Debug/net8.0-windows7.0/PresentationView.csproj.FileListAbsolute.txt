@@ -126,3 +126,6 @@ O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\GraphicalUserInterfac
 O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\GraphicalUserInterface\obj\Debug\net8.0-windows7.0\TP.ConcurrentProgramming.PresentationView.pdb
 O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\GraphicalUserInterface\obj\Debug\net8.0-windows7.0\PresentationView.genruntimeconfig.cache
 O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\GraphicalUserInterface\obj\Debug\net8.0-windows7.0\ref\TP.ConcurrentProgramming.PresentationView.dll
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\GraphicalUserInterface\obj\Debug\net8.0-windows7.0\GeneratedInternalTypeHelper.g.cs
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\GraphicalUserInterface\obj\Debug\net8.0-windows7.0\TP.ConcurrentProgramming.PresentationView_MarkupCompile.lref
+O:\test\wspolbiezne_DD_AB\ReactiveInteractiveUserInterface\GraphicalUserInterface\obj\Debug\net8.0-windows7.0\App.baml

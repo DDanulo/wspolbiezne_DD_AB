@@ -8,28 +8,38 @@
 //
 //_____________________________________________________________________________________________________________________________________
 
+using static TP.ConcurrentProgramming.Data.Ball;
+
 namespace TP.ConcurrentProgramming.BusinessLogic
 {
-  internal class Ball : IBall
-  {
-    public Ball(Data.IBall ball)
+    internal class Ball : IBall
     {
-      ball.NewPositionNotification += RaisePositionChangeEvent;
+        private readonly Data.Ball _dal;
+        public Ball(Data.IBall ball)
+        {
+            _dal = (Data.Ball)ball;
+            _dal.NewPositionNotification += RaisePositionChangeEvent;
+            _dal.NewColourNotification += (_, c) => ColourChangedNotification?.Invoke(this, c);
+        }
+
+        #region IBall
+
+
+        public event EventHandler<IPosition>? NewPositionNotification;
+        public event EventHandler<Data.Rgb> ColourChangedNotification;
+
+        //public Rgb Colour => _dal.Colour;
+
+        Data.Rgb IBall.Colour => _dal.Colour;
+        #endregion IBall
+
+        #region private
+
+        private void RaisePositionChangeEvent(object? sender, Data.IVector e)
+        {
+            NewPositionNotification?.Invoke(this, new Position(e.x, e.y));
+        }
+
+        #endregion private
     }
-
-    #region IBall
-
-    public event EventHandler<IPosition>? NewPositionNotification;
-
-    #endregion IBall
-
-    #region private
-
-    private void RaisePositionChangeEvent(object? sender, Data.IVector e)
-    {
-      NewPositionNotification?.Invoke(this, new Position(e.x, e.y));
-    }
-
-    #endregion private
-  }
 }

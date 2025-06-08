@@ -20,7 +20,10 @@ namespace TP.ConcurrentProgramming.Data
         public DataImplementation(Dimensions dims)
         {
             _dims = dims;
-            //MoveTimer = new Timer(Move, null, TimeSpan.Zero, TimeSpan.FromMilliseconds(50));
+            _colourTimer = new Timer(UpdateColours,
+                             null,
+                             TimeSpan.Zero,
+                             TimeSpan.FromMilliseconds(50));
         }
 
         #endregion ctor
@@ -41,6 +44,7 @@ namespace TP.ConcurrentProgramming.Data
                 upperLayerHandler(startingPosition, newBall);
                 BallsList.Add(newBall);
             }
+            isStarted = true;
         }
 
         #endregion DataAbstractAPI
@@ -75,24 +79,50 @@ namespace TP.ConcurrentProgramming.Data
 
         #region private
 
+        private void UpdateColours(object? _)
+        {
+            if (!isStarted) return;
+            const double speedDegPerSec = 45.0;        // full rainbow ≈8 s
+            _hue = (_hue + speedDegPerSec * 0.05) % 360;
+            Rgb c = HueToRgb(_hue);
+
+            lock (_lock)                               // same lock used for BallsList
+            {
+                foreach (Ball b in BallsList)          // <- List<Data.Ball>
+                    b.Colour = c;                      // raises NewColourNotification
+            }
+        }
+
+        private static Rgb HueToRgb(double hueDeg)
+        {
+            // keep hue in [0,360)
+            hueDeg = (hueDeg % 360 + 360) % 360;
+
+            double h = hueDeg / 60.0;           
+            double c = 1.0;                     
+            double x = 1 - Math.Abs(h % 2 - 1);
+            double r1 = 0, g1 = 0, b1 = 0;       
+
+            if (h < 1) { r1 = c; g1 = x; b1 = 0; }
+            else if (h < 2) { r1 = x; g1 = c; b1 = 0; }
+            else if (h < 3) { r1 = 0; g1 = c; b1 = x; }
+            else if (h < 4) { r1 = 0; g1 = x; b1 = c; }
+            else if (h < 5) { r1 = x; g1 = 0; b1 = c; }
+            else { r1 = c; g1 = 0; b1 = x; }
+
+            return new Rgb((byte)(r1 * 255),
+                           (byte)(g1 * 255),
+                           (byte)(b1 * 255));
+        }
+
         private bool Disposed = false;
         Dimensions _dims;
-        //private Timer MoveTimer;
         private Random RandomGenerator = new();
         private List<Ball> BallsList = [];
-
-        //private void Move(object? x)
-        //{
-        //    const double dt = 0.1;
-        //    lock (BallsList)
-        //    {
-        //        foreach (Ball b in BallsList)
-        //        {
-        //            var v = b.Velocity;
-        //            b.Move(new Vector(v.x * dt, v.y * dt));
-        //        }
-        //    }
-        //}
+        private readonly Timer _colourTimer;
+        private double _hue;                 // 0-360°
+        private readonly object _lock = new();
+        private bool isStarted = false;
 
         #endregion private
 

@@ -25,7 +25,9 @@ namespace TP.ConcurrentProgramming.BusinessLogic
         internal BusinessLogicImplementation(Dimensions dims, UnderneathLayerAPI? underneathLayer = null)
         {
             _dims = dims;
+
             layerBellow = underneathLayer ?? UnderneathLayerAPI.Create(dims);
+
         }
 
         #endregion ctor
@@ -37,6 +39,8 @@ namespace TP.ConcurrentProgramming.BusinessLogic
             if (Disposed)
                 throw new ObjectDisposedException(nameof(BusinessLogicImplementation));
             layerBellow.Dispose();
+            _log.Dispose();
+            Stop();
             Disposed = true;
         }
 
@@ -48,18 +52,20 @@ namespace TP.ConcurrentProgramming.BusinessLogic
                 throw new ArgumentNullException(nameof(upperLayerHandler));
             layerBellow.Start(numberOfBalls, (startVec, rawBall) =>
             {
-                lock (_sync) _balls.Add(rawBall);   
-
+                lock (_sync) _balls.Add(rawBall);
+                
                 upperLayerHandler(new Position(startVec.x, startVec.y), new Ball(rawBall));         
             });
-
+            
             _physicsTimer = new Timer(DoPhysics, null,
                                       TimeSpan.Zero, TimeSpan.FromMilliseconds(10));
-        }
+        }   
         public void Stop()
         {
             _physicsTimer?.Dispose();
         }
+
+        
 
         private void DoPhysics(object? _)
         {
@@ -67,6 +73,7 @@ namespace TP.ConcurrentProgramming.BusinessLogic
             {
                 ResolveBorderCollisions();
                 ResolveBallCollisions();
+                
             }
         }
 
@@ -105,9 +112,12 @@ namespace TP.ConcurrentProgramming.BusinessLogic
                     var dy = b.Position.y - a.Position.y;
                     var distSq = dx * dx + dy * dy;
 
-                    if (distSq >= r2Sq) continue;             
+                    if (distSq >= r2Sq) continue;
+                    
+                    _log.Log(i, _balls[i].Position, _balls[i].Velocity);
+                    _log.Log(j, _balls[j].Position, _balls[j].Velocity);
 
-                  
+
                     var dist = Math.Sqrt(distSq);
                     if (dist == 0) dist = 0.01;               
                     var overlap = 0.5 * (r2 - dist);
@@ -133,12 +143,15 @@ namespace TP.ConcurrentProgramming.BusinessLogic
         #endregion BusinessLogicAbstractAPI
 
         #region private
-
+        
         private bool Disposed = false;
         private readonly Dimensions _dims;
         private readonly UnderneathLayerAPI layerBellow;
         private readonly List<Data.IBall> _balls = new();
         private readonly object _sync = new();
+        private readonly DiagnosticsLogger _log = new(Path.Combine(AppContext.BaseDirectory, $"{DateTime.UtcNow.ToString("yyyyMMdd_HHmmss_fffffffZ")}_balls.log"));
+        private Timer _colourTimer;
+        private double _hue;
         private readonly record struct Vector(double x, double y) : IVector;
 
         private Timer? _physicsTimer;

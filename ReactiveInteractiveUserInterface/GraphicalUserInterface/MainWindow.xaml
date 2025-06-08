@@ -45,7 +45,8 @@
                     <DataTemplate>
                         <Ellipse Width="{Binding Diameter}"
                                  Height="{Binding Diameter}"
-                                 Fill="Blue" />
+                                 Fill="{Binding Colour, Converter={StaticResource RgbToBrush}}"
+                                 />
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
                 <ItemsControl.ItemContainerStyle>

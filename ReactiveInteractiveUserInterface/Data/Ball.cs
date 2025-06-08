@@ -20,6 +20,7 @@ namespace TP.ConcurrentProgramming.Data
         {
             Position = initialPosition;
             Velocity = initialVelocity;
+            //Colour = new Rgb(0, 0, 255);
             _tickMs = Math.Max(1, tickMs);
             _thread = new Thread(Run) { IsBackground = true, Name = $"Ball-{Guid.NewGuid()}" };
             _thread.Start();
@@ -30,6 +31,7 @@ namespace TP.ConcurrentProgramming.Data
         #region IBall
 
         public event EventHandler<IVector>? NewPositionNotification;
+        public event EventHandler<Rgb>? NewColourNotification;
 
         public IVector Velocity { get; set; }
 
@@ -40,6 +42,19 @@ namespace TP.ConcurrentProgramming.Data
         private readonly Thread _thread;
         private volatile bool _alive = true;   // thread-life flag
         private readonly int _tickMs;         // sleep per step (e.g. 10 ms)
+                                              //public record struct Rgb(byte R, byte G, byte B);   // tiny value-object
+                                              // Data/Ball.cs
+        private Rgb _colour = new(0, 0, 255);
+        public Rgb Colour
+        {
+            get => _colour;
+            set
+            {
+                if (_colour.Equals(value)) return;         // ignore duplicates
+                _colour = value;
+                NewColourNotification?.Invoke(this, _colour);
+            }
+        }
 
         private void RaiseNewPositionChangeNotification()
         {

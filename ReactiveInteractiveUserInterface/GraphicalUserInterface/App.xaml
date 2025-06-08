@@ -1,7 +1,8 @@
 ﻿<Application x:Class="TP.ConcurrentProgramming.PresentationView.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:TP.ConcurrentProgramming.PresentationView"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
+        <local:RgbToBrushConverter x:Key="RgbToBrush"/>
     </Application.Resources>
 </Application>

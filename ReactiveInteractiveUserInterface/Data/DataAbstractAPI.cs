@@ -47,8 +47,10 @@ namespace TP.ConcurrentProgramming.Data
     public interface IBall
     {
         event EventHandler<IVector> NewPositionNotification;
-
+        //event EventHandler<Rgb> ColourChangedNotification;
         IVector Velocity { get; set; }
         IVector Position { get; set; }
+
+        Rgb Colour { get; set; }
     }
 }

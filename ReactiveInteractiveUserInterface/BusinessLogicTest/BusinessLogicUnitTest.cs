@@ -123,6 +123,7 @@ namespace TP.ConcurrentProgramming.BusinessLogic.Test
             {
                 public IVector Velocity { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
                 public IVector Position { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+                public Rgb Colour { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
                 public event EventHandler<IVector>? NewPositionNotification = null;
             }

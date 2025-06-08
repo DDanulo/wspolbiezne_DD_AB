@@ -38,4 +38,5 @@ namespace TP.ConcurrentProgramming.Data
       y = YComponent;
     }
   }
+    public readonly record struct Rgb(byte R, byte G, byte B);
 }
